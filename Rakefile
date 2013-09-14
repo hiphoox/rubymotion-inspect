@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
-require 'bundler'
 
-Bundler.setup
-Bundler.require
+begin
+  require 'bundler'
+  Bundler.require
+rescue LoadError
+end
 
 Motion::Project::App.setup do |app|
   app.development do
@@ -19,13 +21,13 @@ Motion::Project::App.setup do |app|
   end
 
   app.archs['iPhoneOS'] = ['armv7']
-  app.deployment_target = "6.0"
+  app.deployment_target = "6.1"
 
-  app.name = 'Inspect 2013'
+  app.name = 'FINE 2013'
 
   app.frameworks += %w{MapKit}
 
-  app.identifier = 'net.epic.RubyMotion'
+  app.identifier = 'com.diverza.FINE'
   app.version = app.short_version = "1.0"
 
   app.pods do
