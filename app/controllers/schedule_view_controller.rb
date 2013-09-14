@@ -47,7 +47,7 @@ class RMIScheduleViewController < UIViewController
   def load_data
     path = "#{@schedule_name}.plist"
     if path.document.exists?
-      @schedule = NSMutableDictionary.dictionaryWithContentsOfFile(path.document)
+      # @schedule = NSMutableDictionary.dictionaryWithContentsOfFile(path.document)
       unless @schedule
         @schedule = NSMutableDictionary.dictionaryWithContentsOfFile(path.resource)
       end
