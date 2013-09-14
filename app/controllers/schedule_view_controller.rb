@@ -18,13 +18,15 @@ class RMIScheduleViewController < UIViewController
   end
 
   layout do
-    @table_view = subview(UITableView, :table_view) do |view|
+    table_view = UIDevice.currentDevice.systemVersion == "7.0"? :table_view_iOS7 : :table_view
+    @table_view = subview(UITableView, table_view) do |view|
       view.backgroundView = subview(UIView, :table_view_background)
       view.tableFooterView = subview(UIView, :table_view_background)
     end
     @table_view.dataSource = self
     @table_view.delegate = self
-    @header_view = subview(RMIScheduleHeaderView, :header_view, {days: @days})
+    header_view = UIDevice.currentDevice.systemVersion == "7.0"? :header_view_iOS7 : :header_view
+    @header_view = subview(RMIScheduleHeaderView, header_view, {days: @days})
     @header_view.buttons.each do |button|
       button.on(:touch) do
         @header_view.clear_selection
