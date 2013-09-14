@@ -18,14 +18,14 @@ Teacup::Stylesheet.new(:menu) do
     frame: CGRectMake(20, 16, 20, 25),
     font: 'Arvo-Bold'.uifont(25),
     color: '#f80043'.uicolor,
-    text: '#'
+    text: ''
 
   style :title,
     backgroundColor: UIColor.clearColor,
     frame: CGRectMake(40, 16, 190, 25),
     font: 'Arvo-Bold'.uifont(25),
     color: UIColor.whiteColor,
-    text: 'INSPECT 2013'
+    text: 'FINE 2013'
 
   style :talks,
     backgroundColor: 'background-menu.png'.uiimage.uicolor,
@@ -34,7 +34,7 @@ Teacup::Stylesheet.new(:menu) do
       constrain_height(43),
       constrain_below(:header, -4),
     ],
-    title: 'TALKS',
+    title: 'AGENDA',
     titleFont: 'Cassannet Regular'.uifont(14),
     image: 'icon-talks.png'.uiimage,
     contentHorizontalAlignment: UIControlContentHorizontalAlignmentLeft,
@@ -48,7 +48,7 @@ Teacup::Stylesheet.new(:menu) do
       constrain_height(43),
       constrain_below(:talks)
     ],
-    title: 'LOCATION',
+    title: 'SEDE',
     titleFont: 'Cassannet Regular'.uifont(14),
     image: 'icon-location.png'.uiimage,
     contentHorizontalAlignment: UIControlContentHorizontalAlignmentLeft,
@@ -77,7 +77,7 @@ Teacup::Stylesheet.new(:menu) do
       constrain_height(36),
       constrain(:bottom).equals(:root, :bottom).minus(90)
     ],
-    title: 'Sponsors',
+    title: 'Patrocinadores',
     titleFont: 'Cassannet Regular'.uifont(14),
     contentHorizontalAlignment: UIControlContentHorizontalAlignmentRight,
     titleEdgeInsets: UIEdgeInsetsMake(0, 0, 0, 20)
@@ -90,7 +90,7 @@ Teacup::Stylesheet.new(:menu) do
       constrain_height(36),
       constrain(:bottom).equals(:root, :bottom).minus(45)
     ],
-    title: 'About',
+    title: 'Acerca de',
     titleFont: 'Cassannet Regular'.uifont(14),
     contentHorizontalAlignment: UIControlContentHorizontalAlignmentRight,
     titleEdgeInsets: UIEdgeInsetsMake(0, 0, 0, 20)

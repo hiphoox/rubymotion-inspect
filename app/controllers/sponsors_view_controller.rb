@@ -30,19 +30,20 @@ class RMISponsorsViewController < UIViewController
 
   layout :root do
     @scroll = subview(UIScrollView, :content) do
-      sponsor(:heroku, 'http://heroku.com')
+      sponsor(:heroku, 'http://www.afirme.com.mx')
       subview(UIImageView, :hdots1)
-      sponsor(:jetbrains, 'http://jetbrains.com')
-      subview(UIImageView, :vdots1)
-      sponsor(:cyrus, 'http://cyrusinnovation.com')
+      sponsor(:jetbrains, 'http://www.amexipac.org.mx')
+      # subview(UIImageView, :vdots1)
+      # sponsor(:cyrus, 'http://cyrusinnovation.com')
       subview(UIImageView, :hdots2)
-      sponsor(:nedap, 'http://nedap.com')
-      subview(UIImageView, :vdots2)
-      sponsor(:boxcar, 'http://boxcar.io')
+      sponsor(:nedap, 'http://www.ibm.com')
+      # subview(UIImageView, :vdots2)
+      # sponsor(:boxcar, 'http://www.interfactura.com.mx')
       subview(UIImageView, :hdots3)
-      sponsor(:pragmatic, 'http://pragmaticstudio.com')
-      subview(UIImageView, :vdots3)
-      sponsor(:belighted, 'http://belighted.be')
+      sponsor(:pragmatic, 'http://www.sat.gob.mx')
+      subview(UIImageView, :hdots4)
+      # subview(UIImageView, :vdots3)
+      sponsor(:belighted, 'http://www.visa.com.mx')
     end
   end
 

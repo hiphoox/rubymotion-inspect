@@ -39,10 +39,10 @@ class RMIAboutViewController < UIViewController
   end
 
   def open_twitter
-    "https://twitter.com/RubyMotion".nsurl.open
+    "https://twitter.com/diverza".nsurl.open
   end
 
   def open_epic
-    "http://epic.net".nsurl.open
+    "http://raku.mx".nsurl.open
   end
 end

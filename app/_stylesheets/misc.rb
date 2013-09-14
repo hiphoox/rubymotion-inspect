@@ -24,7 +24,7 @@ Teacup::Stylesheet.new(:location) do
     textAlignment: UITextAlignmentCenter,
     numberOfLines: 0,
     lineHeight: 20,
-    text: 'Grand-Place, Brussels'
+    text: 'Fairmont Mayakobá / Playa del Carmen / Quintana Roo'
 
   style :dots,
     constraints: [constrain_width(220), constrain_below(:title, 10), :center_x, constrain_height(2)],
@@ -34,7 +34,7 @@ Teacup::Stylesheet.new(:location) do
     constraints: [constrain_width(220), constrain_below(:dots, 10), :center_x, constrain_height(224)],
     font: 'Arvo'.uifont(11),
     numberOfLines: 0,
-    text: "The conference will be held in an elegant “Maison de Maitre” located right on Brussels' historical square, the Grand-Place.\n\nAs a UNESCO World Heritage Site, the Grand-Place is one of the most beautiful squares of the world, and is also the center of the city, surrounded by hotels, restaurants and bars.\n\nTraditional Belgian food and beverages will be served on-site."
+    text: "UBICACIÓN PRIVILEGIADA PARA APRENDER, CONVIVIR Y RELAJARSE.\n\n El resort Fairmont Mayakoba, Riviera Maya está ubicado al sur del aeropuerto de Cancún en Playa del Carmen. Es un destino de lujo ideal desde el cual se pueden descubrir todos los sitios históricos de los mayas, además de parques ecológicos como: Xelha, Xcaret, Tulúm, Coba, Sian Ka'an y una de las nuevas Siete maravillas del mundo, Chichén Itzá.  Ver video de Sian Ka'an."
 
   style :title2,
     constraints: [constrain_width(220), :top, :center_x, constrain_height(25)],
@@ -63,8 +63,8 @@ Teacup::Stylesheet.new(:sponsors) do
     constraints: [:top, :full]
 
   style :heroku,
-    constraints: [:top, :center_x, constrain_size(200, 144)],
-    image: 'sponsors/heroku.png'.uiimage
+    constraints: [:top, :center_x, constrain_size(281, 80)],
+    image: 'sponsors/afirme.png'.uiimage
 
   grey_dots = 'grey_dots.png'.uiimage
   vgrey_dots = 'vgrey_dots.png'.uiimage
@@ -75,46 +75,50 @@ Teacup::Stylesheet.new(:sponsors) do
     image: grey_dots
 
   style :jetbrains,
-    constraints: [constrain(:left).equals(:content, :left).plus(25), constrain_below(:hdots1, 5), constrain_size(122, 144)],
-    image: 'sponsors/jetbrains.png'.uiimage
+    constraints: [constrain(:left).equals(:content, :left).plus(25), constrain_below(:hdots1, 5), constrain_size(260, 112)],
+    image: 'sponsors/amexipac.png'.uiimage
 
   style :vdots1,
     constraints: [constrain_below(:hdots1, 5), :center_x, constrain_size(2, 142)],
     image: vgrey_dots
 
   style :cyrus,
-    constraints: [constrain(:left).equals(:content, :left).plus(172), constrain_below(:hdots1, 5), constrain_size(122, 144) ],
-    image: 'sponsors/cyrus-innovation.png'.uiimage
+    constraints: [constrain(:left).equals(:content, :left).plus(172), constrain_below(:hdots1, 5), constrain_size(283, 53) ],
+    image: 'sponsors/deloitte.png'.uiimage
 
   style :hdots2,
     constraints: [constrain_below(:jetbrains, 5), :center_x, constrain_size(262, 2)],
     image: grey_dots
 
   style :nedap,
-    constraints: [constrain(:left).equals(:content, :left).plus(25), constrain_below(:hdots2, 5), constrain_size(122, 144)],
-    image: 'sponsors/nedap.png'.uiimage
+    constraints: [constrain(:left).equals(:content, :left).plus(85), constrain_below(:hdots2, 5), constrain_size(149, 60)],
+    image: 'sponsors/ibm.png'.uiimage
 
   style :vdots2,
     constraints: [constrain_below(:hdots2, 5), :center_x, constrain_size(2, 142)],
     image: vgrey_dots
 
   style :boxcar,
-    constraints: [constrain(:left).equals(:content, :left).plus(172), constrain_below(:hdots2, 5), constrain_size(122, 144) ],
-    image: 'sponsors/boxcar.png'.uiimage
+    constraints: [constrain(:left).equals(:content, :left).plus(60), constrain_below(:hdots2, 5), constrain_size(377, 80) ],
+    image: 'sponsors/Interfactura.png'.uiimage
 
   style :hdots3,
     constraints: [constrain_below(:nedap, 5), :center_x, constrain_size(262, 2)],
     image: grey_dots
 
   style :pragmatic,
-    constraints: [constrain(:left).equals(:content, :left).plus(45), constrain_below(:hdots3, 5), constrain_size(92, 110) ],
-    image: 'sponsors/pragmatic-studio.png'.uiimage
+    constraints: [constrain(:left).equals(:content, :left).plus(30), constrain_below(:hdots3, 5), constrain_size(260, 112) ],
+    image: 'sponsors/sat.png'.uiimage
+
+  style :hdots4,
+    constraints: [constrain_below(:pragmatic, 5), :center_x, constrain_size(262, 2)],
+    image: grey_dots
 
   style :vdots3,
     constraints: [constrain_below(:hdots3, 5), :center_x, constrain_size(2, 110)],
     image: vgrey_dots_110
 
   style :belighted,
-    constraints: [constrain(:left).equals(:content, :left).plus(182), constrain_below(:hdots3, 5), constrain_size(92, 110) ],
-    image: 'sponsors/belighted.png'.uiimage
+    constraints: [constrain(:left).equals(:content, :left).plus(65), constrain_below(:hdots4, 5), constrain_size(180, 55) ],
+    image: 'sponsors/visa.png'.uiimage
 end

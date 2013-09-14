@@ -18,14 +18,14 @@ Teacup::Stylesheet.new(:about) do
     font: 'Cassannet Regular'.uifont(20),
     textAlignment: UITextAlignmentCenter,
     numberOfLines: 1,
-    text: '#INSPECT BRUSSELS 2013'
+    text: 'FINE 2013'
 
   style :about,
     constraints: [constrain_width(220), constrain_below(:title, 10), :center_x, constrain_height(200)],
     font: 'Arvo'.uifont(11),
     textAlignment: UITextAlignmentCenter,
     numberOfLines: 0,
-    text: "A RubyMotion Conference\nwww.rubymotion.com\n\nOrganized by HipByte\ninfo@hipbyte.com\n\nWith the help of:\nMarc Lainez, Stephanie Dijoux, Yannick Schutz\n\nCopyright © HipByte SPRL 2012-2013"
+    text: "Foro Iberoamericano de Negocios Electrónicos\nhttp://www.foro-fine.mx\n\nOrganizado por Diverza\nwww.diverza.com\n\nCon la ayuda de:\nSecretaría de Hacienda\n\nCopyright © Diverza 2013"
 
   tw_image = 'icon-twitter-large.png'.uiimage
 
@@ -42,13 +42,13 @@ Teacup::Stylesheet.new(:about) do
     font: 'Cassannet Regular'.uifont(15),
     textAlignment: UITextAlignmentCenter,
     numberOfLines: 1,
-    text: 'FOLLOW US'
+    text: 'Siguenos'
 
   style :line,
     constraints: [constrain_below(:twitter_title, 10), constrain_size(220, 1), :center_x],
     backgroundColor: '#c6c6c6'.uicolor
 
-  epic_image = 'icon-epic.png'.uiimage
+  epic_image = 'icon-diverza.png'.uiimage
   style :epic,
     constraints: [
       :center_x,

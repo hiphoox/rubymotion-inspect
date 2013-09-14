@@ -20,7 +20,7 @@ class RMILocationViewController < UIViewController
     @map.zoomEnabled = false
     @map.scrollEnabled = false
     @map.mapType = MKMapTypeHybrid
-    @map.region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(50.846719, 4.352673), MKCoordinateSpanMake(0.001, 0.001))
+    @map.region = MKCoordinateRegionMake(CLLocationCoordinate2DMake(20.696067, -87.019626), MKCoordinateSpanMake(0.001, 0.001))
 
     @map_height_constraint = Teacup::Constraint.new(@map, :height).equals(100).nslayoutconstraint
     @map.addConstraint(@map_height_constraint)
@@ -81,7 +81,7 @@ class RMILocationViewController < UIViewController
   end
 
   def button_tapped(sender)
-    "http://maps.apple.com/?ll=50.846719,4.352673&spn=0.01&q=Grand-Place,%20Brussels,%20Belgium".nsurl.open
+    "http://maps.apple.com/?ll=20.696067,-87.019626&spn=0.01&q=Fairmont%20Mayakoba,%20Playa%20del%20Carmen,%20Mexico".nsurl.open
   end
 
   def viewDidLayoutSubviews
