@@ -42,17 +42,21 @@ Teacup::Stylesheet.new(:location) do
     textAlignment: UITextAlignmentCenter,
     numberOfLines: 0,
     lineHeight: 20,
-    text: "Délirium Café"
+    text: "Factura Electrónica"
 
   style :dots2,
     constraints: [constrain_width(220), constrain_below(:title2, 10), :center_x, constrain_height(2)],
     image: 'dots.png'.uiimage
 
   style :description2,
-    constraints: [constrain_width(220), constrain_below(:dots2, 10), :center_x, constrain_height(235)],
+    constraints: [constrain_width(220), constrain_below(:dots2, 10), :center_x, constrain_height(335)],
     font: 'Arvo'.uifont(11),
     numberOfLines: 0,
-    text: "On Friday night you are invited to an awesome after-party at the Délirium Café.\n\nThe Délirium is known for its long beer list, standing at 2,004 different brands in January 2004 as recorded in the The Guinness Book of Records.\n\nThe bar is located in the small alley called Impasse de la Fidélité, only a couple of hundred metres from the Grand-Place. Don't miss the Jeanneke Pis statue nearby!"
+    text: "AVANCES, RETOS Y EXPECTATIVAS EN IBEROAMÉRICA \n\n ¿Qué es FINE? \n\n Es un evento de alto nivel que aspira a llevarse a cabo anualmente y que con la mecánica de FORO invita a la participación de expertos y líderes de diferentes países a abordar temas relacionados con el mundo de los Negocios Electrónicos, con una temática o enfoque particular por año. \n\n ¿Quién debe asistir? \n\n Está orientado a empresarios, directivos, emprendedores y líderes de opinión que buscan conocer y/o ampliar su conocimiento sobre los retos y posibilidades que la Factura Electrónica plantea para su perspectiva de negocio, así como para conocer, convivir e intercambiar opiniones con expertos en el tema."
+
+  style :venue,
+    constraints: [constrain_width(220), constrain_below(:description, 10), :center_x, constrain_height(130)],
+    image: 'venue.jpg'.uiimage
 end
 
 Teacup::Stylesheet.new(:sponsors) do

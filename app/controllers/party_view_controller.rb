@@ -4,7 +4,7 @@ class RMIPartyViewController < UIViewController
 
   def init
     super.tap do
-      self.navigationItem.title = "The After-Party"
+      self.navigationItem.title = "Evento"
       self.navigationItem.leftBarButtonItem = UIBarButtonItem.alloc.initWithImage(
         'menuicon.png'.uiimage,
         style: UIBarButtonItemStylePlain,
@@ -59,7 +59,7 @@ class RMIPartyViewController < UIViewController
   def mapViewDidFinishLoadingMap(map)
     @pin = MKPointAnnotation.alloc.init
     @pin.coordinate = @map.region.center
-    @pin.title = "Delirium Café"
+    @pin.title = "Evento"
     @map.addAnnotation @pin
   end
 
@@ -82,7 +82,7 @@ class RMIPartyViewController < UIViewController
   end
 
   def button_tapped(sender)
-    "https://maps.apple.com/?ll=50.848418,4.353877&q=Delirium+Cafe,Impasse%20de%20la%20Fid%C3%A9lit%C3%A9%204,+1000+Brussels,+Belgium".nsurl.open
+    "http://maps.apple.com/?ll=20.696067,-87.019626&spn=0.01&q=Fairmont%20Mayakoba,%20Playa%20del%20Carmen,%20Mexico".nsurl.open
   end
 
   def viewDidLayoutSubviews

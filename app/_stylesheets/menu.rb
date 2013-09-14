@@ -62,7 +62,7 @@ Teacup::Stylesheet.new(:menu) do
       constrain_height(43),
       constrain_below(:location)
     ],
-    title: 'PARTY',
+    title: 'EVENTO',
     titleFont: 'Cassannet Regular'.uifont(14),
     image: 'icon-beer.png'.uiimage,
     contentHorizontalAlignment: UIControlContentHorizontalAlignmentLeft,

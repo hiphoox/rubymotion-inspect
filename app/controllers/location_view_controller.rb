@@ -48,6 +48,7 @@ class RMILocationViewController < UIViewController
       subview(MTLabel, :title)
       subview(UIImageView, :dots)
       subview(UILabel, :description)
+      subview(UIImageView, :venue)
     end
   end
 
