@@ -54,7 +54,7 @@ class RMIScheduleViewController < UIViewController
     else
       @schedule = NSMutableDictionary.dictionaryWithContentsOfFile(path.resource)
     end
-    @days = @schedule.keys.reverse
+    @days = @schedule.keys.sort
     @current_schedule = @schedule[@days[@current_day]]
   end
 
