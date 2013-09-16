@@ -1,5 +1,5 @@
 # -*- encoding : utf-8 -*-
-Teacup::Stylesheet.new(:schedule_screen) do
+Teacup::Stylesheet.new(:speaker_screen) do
   style :root,
     backgroundColor: '#f0f0f0'.uicolor,
     constraints: [:full]
@@ -42,7 +42,7 @@ Teacup::Stylesheet.new(:schedule_screen) do
     constraints: [
       :full_width,
       :top_left,
-      constrain(:height).equals(:superview, :height).minus(63)
+      :full_height,
     ]
 
   style :table_view_background,

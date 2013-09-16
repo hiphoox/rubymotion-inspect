@@ -1,12 +1,12 @@
 # -*- encoding : utf-8 -*-
-class RMITalksController < UINavigationController
+class RMIExpositorsController < UINavigationController
   def init
     super.tap do
 
       self.navigationBar.barStyle = UIBarStyleBlack
 
-      controller = RMIScheduleViewController.alloc.init(:talks)
-      controller.navigationItem.title = "Agenda"
+      controller = RMISpeakerListViewController.alloc.init(:talks)
+      controller.navigationItem.title = "Expositores"
       self.setViewControllers([controller], animated: false)
 
     end

@@ -28,6 +28,16 @@ class RMIMenuViewController < UIViewController
       end
       self.current = :party
     end
+
+    subview(UIButton.custom, :speakers).on(:touch) do
+      if self.current != :speakers
+        self.slideMenuController.setContentViewController(RMIExpositorsController.new, animated: true, completion: nil)
+      else
+        self.slideMenuController.showContentViewControllerAnimated(true, completion: nil)
+      end
+      self.current = :speakers
+    end
+
     subview(UIView, :header) do
       subview(UILabel, :hash)
       subview(UILabel, :title)

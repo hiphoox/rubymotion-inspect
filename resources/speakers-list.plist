@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>d10</key>
+	<array>
+		
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>19:30</string>
+			<key>title</key>
+			<string>Negocios Electrónicos: Aplicaciones Móviles y Factura Electrónica</string>
+			<key>speaker</key>
+			<string>Por Confirmar</string>
+			<key>speaker_company</key>
+			<string>Por Confirmar</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>1</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>06:45</string>
+			<key>title</key>
+			<string>Transmisión en vivo del programa desde el hotel sede</string>
+			<key>speaker</key>
+			<string>Pedro Ferriz</string>
+			<key>speaker_company</key>
+			<string>IMAGEN</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>2</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:00</string>
+			<key>title</key>
+			<string>Inauguración</string>
+			<key>speaker</key>
+			<string>Jefe del Servicio de Administración Tributaria</string>
+			<key>speaker_company</key>
+			<string>SAT</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>3</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:30</string>
+			<key>title</key>
+			<string>Caso Chile</string>
+			<key>speaker</key>
+			<string>Servicio de Impuestos Internos</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>4</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:30</string>
+			<key>title</key>
+			<string>Caso México</string>
+			<key>speaker</key>
+			<string>Servicio de Administración Tributaria</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>5</integer>
+		</dict>
+
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:30</string>
+			<key>title</key>
+			<string>Negocios Electrónicos: Gobierno y Factura Electrónica</string>
+			<key>speaker</key>
+			<string>Por Confirmar</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>6</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:30</string>
+			<key>title</key>
+			<string>Caso Brasil</string>
+			<key>speaker</key>
+			<string>Ministério da Fazenda / Encontro Nacional de Coordenadores e Administradores Tributários Estaduais</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>7</integer>
+		</dict>
+
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>15:30</string>
+			<key>title</key>
+			<string>Caso España</string>
+			<key>speaker</key>
+			<string>Ministerio de Hacienda</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>8</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>16:15</string>
+			<key>title</key>
+			<string>Modelo PAC</string>
+			<key>speaker</key>
+			<string>Asociación Mexicana de Proveedores Autorizados de Certificación</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>9</integer>
+		</dict>
+
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>19:30</string>
+			<key>title</key>
+			<string>Negocios Electrónicos: Pagos Móviles y Factura Electrónica</string>
+			<key>speaker</key>
+			<string>Por Confirmar</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>10</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>08:00</string>
+			<key>title</key>
+			<string>Juego de Golf con el comentarista Pablo Carrillo.</string>
+			<key>speaker</key>
+			<string>-</string>
+			<key>speaker_company</key>
+			<string>-</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>11</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:00</string>
+			<key>title</key>
+			<string>Libro: "Factura Electrónica en América Latina: comparación de modelos, estrategias y mejores prácticas"</string>
+			<key>speaker</key>
+			<string>Newton Oller</string>
+			<key>speaker_company</key>
+			<string>-</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>12</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>10:00</string>
+			<key>title</key>
+			<string>Caso Costa Rica</string>
+			<key>speaker</key>
+			<string>Ministerio de Hacienda</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>13</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:30</string>
+			<key>title</key>
+			<string>Caso Guatemala</string>
+			<key>speaker</key>
+			<string>Superintendencia de Administración Tributaria</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>14</integer>
+		</dict>
+
+		<dict>
+			<key>type</key>
+			<string>talk</string>
+			<key>time</key>
+			<string>09:30</string>
+			<key>title</key>
+			<string>Panel General</string>
+			<key>speaker</key>
+			<string>Moderado por: Centro Interamericano de Administraciones Tributarias - CIAT</string>
+			<key>speaker_company</key>
+			<string>Empresa</string>
+			<key>speaker_image</key>
+			<string>speakers/temp_small.png</string>
+			<key>speaker_index</key>
+			<integer>15</integer>
+		</dict>
+
+	</array>
+</dict>
+</plist>

@@ -41,6 +41,20 @@ Teacup::Stylesheet.new(:menu) do
     imageEdgeInsets: UIEdgeInsetsMake(0, 14, 0, 0),
     titleEdgeInsets: UIEdgeInsetsMake(0, 24, 0, 0)
 
+  style :speakers,
+    backgroundColor: 'background-menu.png'.uiimage.uicolor,
+    constraints: [
+      :full_width,
+      constrain_height(43),
+      constrain_below(:party, -4),
+    ],
+    title: 'EXPOSITORES',
+    titleFont: 'Cassannet Regular'.uifont(14),
+    image: 'icon-talks.png'.uiimage,
+    contentHorizontalAlignment: UIControlContentHorizontalAlignmentLeft,
+    imageEdgeInsets: UIEdgeInsetsMake(0, 14, 0, 0),
+    titleEdgeInsets: UIEdgeInsetsMake(0, 24, 0, 0)
+
   style :location,
     backgroundColor: 'background-menu.png'.uiimage.uicolor,
     constraints: [
